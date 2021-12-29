@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Red+Hat+Text:wght@700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(#3e1f47, #312244);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+h1 {
+  font-family: 'Red Hat Text', 'IBM Plex Mono';
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+input {
+  width: 150px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Red Hat Text', 'IBM Plex Mono';
+  border-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  background-image: url(./images/bg-stars.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Poppins', 'IBM Plex Mono';
+  font-weight: 700;
+  margin-top: 5rem;
+}
+
+.countdown-container p {
+  padding: 20px;
+  font-size: 30px;
+  margin: 15px;
+  width: 50px;
+  background-color: hsl(234, 17%, 12%);
+  color: hsl(345, 95%, 68%);
+  border-radius: 20px;
+}
+
+.countdown-container span {
+  letter-spacing: 1px;
+  opacity: 90%;
+}
+
+footer img {
+  margin-right: 1rem;
+  margin-top: 2.5rem;
+}
+
+footer img:hover {
+  background-color: hsl(345, 95%, 68%);
+}
